@@ -33,6 +33,7 @@ Mario Pichler, Bahram Haddadi, Christian Jordan, Hamidreza Norouzi, Michael Hara
 
 
 **Dataset:**
+
 Mario Pichler, Bahram Haddadi, Christian Jordan, Hamidreza Norouzi, Michael Harasek, Dataset for the Simulated Biomass Pyrolysis in Rotary Kilns with varying Particle Residence Time Distributions, Mendeley Data, V1,  DOI: https://doi.org/10.17632/j3zm2xv53y.1
 
 
