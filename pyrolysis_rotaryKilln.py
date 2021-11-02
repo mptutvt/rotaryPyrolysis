@@ -1048,13 +1048,13 @@ for Pe_nr in range(len(Pe_list)):
     heatFlux_min = -5
     heatFLux_max = 35
     standardPlot(x[::subSample], np.asarray(q_bed[::subSample]), 0, x_max, heatFlux_min, heatFLux_max, xlabel = xlabel,
-                    ylabel='Heat Flow, kW', style='-', figNr=5, grid=True,xFormatter='%.1f', yFormatter='%.0f',
+                    ylabel='Heat Flow, kW/m', style='-', figNr=5, grid=True,xFormatter='%.1f', yFormatter='%.0f',
                     color='darkorange')
     standardPlot(x[::subSample], np.asarray(q_bed[::subSample])+ np.asarray(q_gas[::subSample]), 0, x_max, heatFlux_min,
-                    heatFLux_max, xlabel = xlabel, ylabel='Heat Flow, kW', style='-', figNr=5, grid=True,
+                    heatFLux_max, xlabel = xlabel, ylabel='Heat Flow, kW/m', style='-', figNr=5, grid=True,
                     xFormatter='%.1f', yFormatter='%.0f', color='k')
     standardPlot(x[::subSample], np.asarray(q_loss[::subSample]), 0, x_max, heatFlux_min, heatFLux_max, xlabel = xlabel,
-                    ylabel='Heat Flow, kW', style='-', figNr=5, grid=True,xFormatter='%.1f', yFormatter='%.0f',
+                    ylabel='Heat Flow, kW/m', style='-', figNr=5, grid=True,xFormatter='%.1f', yFormatter='%.0f',
                     color='r')
 
     # Fill areas
