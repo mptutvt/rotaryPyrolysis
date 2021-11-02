@@ -17,7 +17,7 @@ Concentration profiles:
 
 Heat flux profiles:
 
-<img src="heatFlux.png" height="40%" width="40%">
+<img src="heatFluxCorr.png" height="40%" width="40%">
 
 **Tested/required module versions:**
 * Anaconda3_2020.11
